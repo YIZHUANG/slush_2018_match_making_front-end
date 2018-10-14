@@ -1,0 +1,101 @@
+.target-profile {
+    display: flex;
+
+    .profile-picture {
+        flex: 1;
+        border-radius: 50%;
+        min-width: 15vw;
+        max-height: 15vw;
+    }
+
+    .profile-content {
+        flex: 3;
+        font-style: bold;
+        margin-left: 100px;
+       
+
+        .profile-about {
+            min-height: 15vw;
+        }
+
+        .name {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .title {
+            font-size: 0.8em;
+            font-style: italic;
+            margin-bottom: 16px;
+        }
+
+        .introduction {
+            font-weight: 300;
+            margin-bottom: 32px;
+        }
+
+        .reviews {
+            display: flex;
+
+            .button {
+                flex: 9;
+
+                &:hover {
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+
+            .stars {
+                flex: 1;
+                text-align: right;
+            }
+        }
+    }
+}
+
+.book-meeting-form {
+    .form {
+        display: flex;
+        flex-direction: column;
+    
+        button {
+            background: transparent;
+            padding: 12px 20px;
+            border: 1px solid white;
+            color: white;
+            width: auto;
+            align-self: flex-end;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: all 0.4s ease;
+        
+            &:hover {
+                background: white;
+                color: black;
+            }
+        }
+    }
+}
+
+input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 8px 0;
+    outline: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.input-wrapper {
+    margin-bottom: 16px;
+
+    .label {
+        font-size: 12px;
+        font-weight: 300;
+    }
+}

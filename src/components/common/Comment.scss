@@ -1,0 +1,17 @@
+.comment {
+  padding: 20px;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--left {
+      display: flex;
+    }
+    &--meet {
+      background: inherit;
+      color: white;
+      height: 30px;
+      margin-left: 10px;
+    }
+  }
+}

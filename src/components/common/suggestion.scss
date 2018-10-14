@@ -1,0 +1,15 @@
+.suggestion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+  &--left {
+    display: flex;
+    align-items: center;
+  }
+  &--meet {
+    background: inherit;
+    color: white;
+    margin-left: 10px;
+  }
+}

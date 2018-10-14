@@ -1,0 +1,43 @@
+.postcard {
+  width: 700px;
+  margin-bottom: 40px;
+  border: 1px solid #4c4c4c;
+  &__content {
+    padding: 40px;
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    &--learnMore {
+      display: flex;
+      align-self: flex-end;
+      background-color: inherit;
+      color: white;
+    }
+    &--comments {
+      display: flex;
+      align-self: flex-end;
+      margin-top: 24px;
+      font-size: 15px;
+      color: white;
+      padding-bottom: 10px;
+    }
+    border-bottom: .5px solid #4c4c4c;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    &--logo {
+      height: 30px;
+      width: 30px;
+    }
+  }
+  &__comments {
+    &--viewmore {
+      font-size: 12px;
+      font-weight: 300;
+      margin-top: 10px;
+      margin-left: 20px;
+    }
+  }
+}

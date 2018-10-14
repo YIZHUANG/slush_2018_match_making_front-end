@@ -1,0 +1,26 @@
+.header {
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  .header__content {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__right {
+    display: flex;
+    align-items: center;
+  }
+  &--bookMeeting {
+    padding: 10px;
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    background: inherit;
+    border: 1px solid white;  
+    text-decoration: none;
+  }
+  img {
+    height: 50px;
+  }
+}
