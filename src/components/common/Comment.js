@@ -1,7 +1,7 @@
-import React from 'react';
-import faker from 'faker';
+import React from "react";
+import faker from "faker";
 
-import './Comment.scss';
+import "./Comment.scss";
 
 class Comment extends React.Component {
   constructor() {
@@ -21,8 +21,8 @@ class Comment extends React.Component {
     const { randomNumber, numberOfLikes } = this.state;
     const { comment } = this.props;
     const personImage = [
-      faker.image.imageUrl(100, 100, 'people'),
-      faker.image.imageUrl(100, 100, 'cats')
+      faker.image.imageUrl(100, 100, "people"),
+      faker.image.imageUrl(100, 100, "cats")
     ];
     return (
       <div className="comment">
@@ -38,7 +38,7 @@ class Comment extends React.Component {
               alt={comment.creater}
               src={personImage[randomNumber]}
             />
-            <span style={{ alignSelf: 'center' }}>{faker.name.findName()}</span>
+            <span style={{ alignSelf: "center" }}>{faker.name.findName()}</span>
             {randomNumber === 0 ? (
               <button className="comment__header--meet meetBtn">Meet</button>
             ) : null}

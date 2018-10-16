@@ -1,21 +1,21 @@
 $black: black;
 $white: white;
-$green: #00FEAA;
+$green: #00feaa;
 
 body {
-    background: $black;
-    color: $white;
-    font-family: 'Ubuntu', sans-serif;
-    height: 100vh;
-    padding: 0 200px 0 200px;
-    max-width: 1050px;
-    margin: 0 auto;
+  background: $black;
+  color: $white;
+  font-family: "Ubuntu", sans-serif;
+  height: 100vh;
+  padding: 0 200px 0 200px;
+  max-width: 1050px;
+  margin: 0 auto;
 }
 .round-image {
   border-radius: 50%;
 }
 .meetBtn {
   background: inherit;
-color: white;
-padding: 8px 16px;
+  color: white;
+  padding: 8px 16px;
 }

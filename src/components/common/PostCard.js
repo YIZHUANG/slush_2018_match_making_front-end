@@ -3,11 +3,8 @@ import { connect } from 'react-redux';
 import faker from 'faker';
 
 import { addToSuggestions } from '../../actions';
-
 import { ReactComponent as Logo } from '../../logo.svg';
-
 import Comment from './Comment';
-
 import './PostCard.scss';
 
 class PostCard extends React.PureComponent {
